@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Website Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #fff;
+        }
+
+        header {
+            background: url('image1.jpeg') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 40px 20px;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .section-text {
+            flex: 1 1 300px;
+            max-width: 500px;
+        }
+
+        .section-image {
+            flex: 1 1 300px;
+        }
+
+        .section-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #d2691e;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        .products {
+            background-color: #f2f2f2;
+            padding: 30px 20px;
+            text-align: left;
+        }
+
+        footer {
+            background-color: white;
+            text-align: left;
+            padding: 20px;
+            border-top: 1px solid #ddd;
+        }
+
+        footer nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Our Website</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+    </header>
+    <section>
+        <div class="section-text">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer.</p>
+            <a href="#" class="button">Learn More</a>
+        </div>
+        <div class="section-image">
+            <img src="image2.jpeg" alt="Nature Image">
+        </div>
+    </section>
+
+    <section>
+        <div class="section-image">
+            <img src="image3.jpeg" alt="Service Image">
+        </div>
+        <div class="section-text">
+            <h2>Our Services</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="section-text">
+            <h2>Our Services</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer</p>
+        </div>
+        <div class="section-image">
+            <img src="image4.jpeg" alt="Living Room">
+        </div>
+    </section>
+    <div class="products">
+        <h2>Our Products</h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+    </div>
+    <section>
+        <div class="section learn-more">
+            <h2>Learn More</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </div>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="blog.html">Blog</a>
+            <a href="product.html">Products</a>
+        </nav>
+    </section>
+</body>
+
+</html>
